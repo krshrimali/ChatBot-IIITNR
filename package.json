@@ -1,0 +1,79 @@
+{
+  "name": "rivescript",
+  "version": "2.0.0-alpha.6",
+  "description": "RiveScript is a scripting language for chatterbots, making it easy to write trigger/response pairs for building up a bot's intelligence.",
+  "keywords": [
+    "bot",
+    "chatbot",
+    "chatterbot",
+    "aiml",
+    "artificial intelligence",
+    "chatscript",
+    "buddyscript"
+  ],
+  "homepage": "https://www.rivescript.com/",
+  "author": "Noah Petherbridge <root@kirsle.net> (https://www.kirsle.net/)",
+  "main": "src/rivescript.js",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "Changes.md",
+    "rivescript.d.ts",
+    "src/",
+    "lib/",
+    "dist/",
+    "docs/"
+  ],
+  "directories": {
+    "lib": "src",
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aichaos/rivescript-js.git"
+  },
+  "contributors": [
+    "Chris Taylor <christhebaron@gmail.com> (https://github.com/ChrisTheBaron)",
+    "dc <dc@biz.pikkle.com> (https://github.com/dcsan)",
+    "Gerrit (https://github.com/pyrox777)",
+    "Greg Leuch <contact@gleu.ch> (https://gleu.ch)",
+    "Mark Downey <mark@thebakery.io> (http://thebakery.io)",
+    "Mike Rombout <mike.rombout1@gmail.com> (http://www.mikero.nl/)",
+    "Philip Nuzhnyi (https://github.com/callmephilip)",
+    "pirelaurent (https://github.com/pirelaurent)"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/aichaos/rivescript-js/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/aichaos/rivescript-js/issues",
+    "email": "root@kirsle.net"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "commander": "^2.11.0",
+    "uglify-js": "^3.1.1",
+    "webpack": "^3.6.0",
+    "webpack-cli": "^3.0.6"
+  },
+  "scripts": {
+    "prepublish": "npm run dist",
+    "build": "babel src -d lib",
+    "build-tests": "babel test -d test.babel",
+    "test": "npm run build; npm run build-tests; nodeunit test.babel/test-*.js",
+    "webpack": "webpack",
+    "uglify": "uglifyjs -o dist/rivescript.min.js dist/rivescript.js",
+    "dist": "npm run build; npm run webpack; npm run uglify",
+    "clean": "rm -rf dist lib test.babel"
+  },
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "fs-readdir-recursive": "^1.0.0"
+  },
+  "typings": "rivescript.d.ts"
+}
