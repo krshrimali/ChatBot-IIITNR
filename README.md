@@ -24,6 +24,10 @@ WebChat Client
   3.1 Add answers for offensive rivescripts like suicide etc. (May be link to
 motivational videos and music).
   3.2 Abusive rivescript handler
+4. Scrolling (Bug)
+5. Database (FAQs from Admissions)
+6. Image IIIT NR + Navigation Menu + Contacts on right side [seamless]
+
 
 # Contributors: #
 
