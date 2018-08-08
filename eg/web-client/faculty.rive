@@ -1,0 +1,82 @@
+! sub acad = academics
+! sub training and placement = t&p
+
++ hello bot
+- Hello human.
+
++ my name is *
+- <set name=<formal>>Nice to meet you, <get name>.
+
++ (what is my name|who am i)
+- You're <get name>, right?
+
++ *
+- I don't have a reply for that.
+- Try asking that a different way.
+
++ hi
+- helllo
+
+
++ [who is] dean academics [at] [iiit] [nr]
+- Dr Rajarshi Mahapatra
+
++ [who is] director [at] [iiit] [nr]
+- Dr Pradeep.K. Sinha
+
++ [cse] deep learning faculty [at] [iiit] [nr]
+- Dr Ankit Chaudharay, Dr Santosh Kumar, Dr Vivek Tiwari, Dr Munnendra Ojha
+
++ [who is] associate professor [at] [iiit] [nr]
+- Dr Sandeep Sahoo, Dr. Rajarshi Mahapatra
+
++ [where is] faculty cabins [at] [iiit] [nr]
+- At first floor and ground floor
+
++ [what are] office timings [at] [iiit] [nr]
+- 10 AM to 6 PM
+
++ ece faculty [at] [iiit] [nr]
+- Dr Shrivishal Tripathi, Dr Subhendu Sahoo, Dr Rajarshri Mahapatra, Dr Debanjan Das, Dr Manoj Kumar Majumder, Dr Anurag Singh
+ 
++ [where is] board room [at] [iiit] [nr]
+- At ground floor
+
++ [who is] p[.]a | ps [to director]
+-  Sandeep K
+
++ [where is] ece lab
+- at second floor
+
++ [who is] mathematics faculty [at] [iiit] [nr]
+- Ramkrishna Bandi
+
++ [who is] english faculty [at] [iiit] [nr]
+- Sresha Yadav nee Ghosh
+
++ [who are] phd faculty [at] [iiit] [nr] [there]
+- Aditya Japa, Meenakshi, Vijay
+
++ [who is] training and placement faculty [at] [iiit] [nr]
+- Dr. Amit Kumar Agrawal
+
++ [who is] registrar [at] [iiit] [nr]
+- Dr B.K Panigrahy
+
++[who is] warden of [girl's hostel] [bose house] [iiit] [nr]
+- Sresha Yadav nee Ghosh
+
++ [who is] warden of [boy's hostel] [raman house] [iiit] [nr]
+- Dr. Manoj Kumar Majumder
+
++ [who is] warden of [boy's hostel] [bhabha house] [iiit] [nr]
+- Dr Vivek Tiwari
+
++ [ who are ] new faculty [at] [iiit] [nr]
+- Dr Ankit Chaudhary, Dr Srinivas Naik N, Subhendu K sahoo
+
++[ who is] physics faculty [at] [iiit] [nr]
+- Dr Punya Prasad Paltani
+
+	
+
