@@ -10,19 +10,30 @@ h1 {
 	color: #0000FF;
 }
 fieldset {
+  /* background-image: url(orange.jpg); */
 	border: 1px dotted #000000;
 }
 legend {
 	font-weight: bold;
 }
 input#message {
+	height:40px;
+	border: 3px solid #4bd4b5;
 	width: 100%;
 }
 div#dialogue {
 	overflow: auto;
 	height: 450px;
-	width: 100%;
+	border: 3px solid #4bd4b5;
+	width: 54.4%;
+	/* added values */
+	margin: 0 auto; /* for center alignment of div */
+	/* border: 1px dotted #000000; */
 }
+div#dialogue_text{
+	margin-left: 20px; 
+}
+
 div#debug {
 	overflow: auto;
 	max-height: 450px;
@@ -45,16 +56,42 @@ table.input-table {
 	border: 0px;
 	border-collapse: separate;
 	border-spacing: 4px;
-	width: 100%;
+	width: 55%;
+	margin: 0 auto;
 }
 table.input-table td.text-box {
-	padding: 4px;
+	padding: 1px;
 	text-align: left;
 	vertical-align: middle;
 }
 table.input-table td.send-button {
+	border: 3px solid #4bd4b5;
 	padding: 4px;
 	text-align: center;
 	vertical-align: middle;
 	width: 10px;
 }
+
+/* addition: talk bubble */
+#talkbubble {
+  width:120 px;
+  height: 80px;
+  background: red;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#talkbubble:before {
+  content:"";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid red;
+  border-bottom: 13px solid transparent;
+}
+
