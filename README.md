@@ -42,5 +42,5 @@ Meeting - 2. Tuesday, 7th August : With Client
 
 # Client: #
 
-Dr. Abhir Bhattacharya
+Abir Bhattacharya
 (Senior Network Engineer)
