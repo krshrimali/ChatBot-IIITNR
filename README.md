@@ -27,6 +27,7 @@ motivational videos and music).
 4. Scrolling (Bug)
 5. Database (FAQs from Admissions)
 6. Image IIIT NR + Navigation Menu + Contacts on right side [seamless]
+7. Developer page Design
 
 
 # Contributors: #
@@ -38,7 +39,10 @@ motivational videos and music).
 5. Shubham Yadav
 
 # Meetings: #
-Meeting - 2. Tuesday, 7th August : With Client
+Meeting - 1. Wed. , 1st August : Discuss the Project with client
+Meeting - 2. Tuesday, 7th August : With Client 
+Meeting - 3.
+
 
 # Client: #
 
