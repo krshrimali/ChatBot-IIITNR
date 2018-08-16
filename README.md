@@ -23,6 +23,7 @@ WebChat Client
     1. Add material theme (icons)
     2. Better fonts
     3. Logo
+    4. Add more attractive background
 2. Add database using bot.js in Learning (eg/learning) (? - not finalized)
 3. Add more rive scripts
     1. Add answers for offensive rivescripts like suicide etc. (May be link to
@@ -43,7 +44,7 @@ motivational videos and music).
 5. Shubham Yadav
 
 # Meetings: #
-**Meeting - 1. Wed. , 1st August : Discuss the Project and with client:**
+**Meeting - 1. Wed. , 1st August : Discussion of the Project with client:**
 
 1. Project Discussion:
     1. Topics discussed. Demos found.
@@ -59,7 +60,6 @@ motivational videos and music).
 1. Client:
     1. UI - Add contact us, college image and menu.
     2. Prepare a sample admission chat bot. We'll deploy it and test it. Take data from FAQs on the website.
-
 # Client: #
 
 Abir Bhattacharya
