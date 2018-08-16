@@ -7,6 +7,12 @@ WebChat Client
 1. `npm` and `nodejs` (generally `npm` comes along with `nodejs`). 
 2. `rivescript-js` module. Use `npm` : `npm install rivescript` in the cloned rep. (see below steps to clone)
 
+# Design # 
+
+**Original Design**
+
+![Original design](https://github.com/krshrimali/ChatBot-IIITNR/blob/master/ChatBot-Design.png)
+
 # Steps: # 
 
 1. Clone the repo: `git clone <url>`
