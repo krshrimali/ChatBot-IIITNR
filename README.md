@@ -2,6 +2,10 @@ WebChat Client
 ===================
 
 - - - - 
+# Dependencies: #
+
+1. `npm` and `nodejs` (generally `npm` comes along with `nodejs`). 
+2. `rivescript-js` module. Use `npm` : `npm install rivescript` in the cloned rep. (see below steps to clone)
 
 # Steps: # 
 
@@ -39,10 +43,22 @@ motivational videos and music).
 5. Shubham Yadav
 
 # Meetings: #
-Meeting - 1. Wed. , 1st August : Discuss the Project with client
-Meeting - 2. Tuesday, 7th August : With Client 
-Meeting - 3.
+Meeting - 1. Wed. , 1st August : Discuss the Project and with client:
 
+1. Project Discussion:
+  1.1 Topics discussed. Demos found.
+  1.2 Is UI the priority? (Question) Mainly not. Because of IIIT NR's own website layout, it shouldn't be. ChatBot has to be kept simple and easy to load.
+  1.3 Rivescript Module is the best find? Any better finds? - Rivescript is easy to install, data format is understandable. 
+2. Client :
+  2.1 Topic - Good.
+  2.2 UI - Not priority. Use college's template.
+  2.3 RiveScript - our choice. Should be open source & fast.
+
+Meeting - 2. Tuesday, 7th August : With Client.
+
+1. Client:
+  1.1 UI - Add contact us, college image and menu.
+  1.2 Prepare a sample admission chat bot. We'll deploy it and test it. Take data from FAQs on the website.
 
 # Client: #
 
