@@ -70,7 +70,7 @@ Known Limitations
 Author: Noah Petherbridge
 *******************************************************************************/
 
-+ {weight=100}when i say * you say *
++ {weight=100}say * say *
 - <call>learn "<star1>" "{sentence}<star2>{/sentence}"</call>
 
 > object learn javascript

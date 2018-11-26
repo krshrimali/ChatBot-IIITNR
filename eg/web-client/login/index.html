@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>ChatBot - Login </title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+  <script>
+  	function check() {
+  		var username = document.getElementById('user').value;
+  		var password = document.getElementById('pass').value;
+  		if(username == "admin" && password == "iiitnr") {
+  			location = "../admin.html";
+  		} else {
+  			alert("invalid password");
+  		}
+  	}
+  </script>
+
+</head>
+
+<body>
+
+  <div class="wrap">
+		<div class="avatar">
+      <img src="logo.png">
+		</div>
+		<input id = "user" type="text" placeholder="username" required>
+		<div class="bar">
+			<i></i>
+		</div>
+		<input id = "pass" type="password" placeholder="password" required>
+		<!-- <a href="" class="forgot_link">forgot ?</a> -->
+		<button onclick="check()">Sign in</button>
+	</div>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>

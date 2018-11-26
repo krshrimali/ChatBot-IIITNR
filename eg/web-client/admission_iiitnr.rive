@@ -1,0 +1,126 @@
+! version = 2.0
+
+! sub B.Tech = btech
+
++ hello bot
+- Hello, human!
+
++ how are you
+- I'm great, how are you?
+- I'm good, you?
+- Good :) you?
+- Great! You?
+- I'm fine, thanks for asking!
+
++ hello bot
+- Hello human.
+
++ my name is *
+- <set name=<formal>>Nice to meet you, <get name>.
+
++ (what is my name|who am i)
+- You're <get name>, right?
+
++ *
+- I don't have a reply for that.
+- Try asking that a different way.
+
++ when was the institute established
+- The first academic session of the institute commenced from Aug 2015 in its own campus.
+
++ what are the programs offered
+- a) 4 Years B.Tech. in (ECE)
+b) 4 Years B.Tech. in (CSE)
+c) Ph.D. in (ECE)
+d) Ph.D. in (CSE)
+d) Ph.D. in (Physics)
+d) Ph.D. in (Mathematics)
+d) Ph.D. in (English)
+d) Ph.D. in (Management)
+
++ when does admission for btech programs begin
+- The admission to Btech programs begins in June.
+
++ what is the admission criteria for btech programs
+- Admission to the undergraduate program of the DSPM IIIT-NR is based strictly on the merit of the candidate as inferred from their performance in JEE (Joint Entrance Examination). The minimum eligibility for applying for the B.Tech program under Chhattisgarh quota at IIIT-NR is 50 percent aggregate marks in Physics and Mathematics (45percent for SC or ST or OBC or PWD candidates) in their 12th standard examination. The eligibility for applying for the B.Tech program under All India category and NTPC quota is as per JoSAA guidelines.
+
++ is phd offered at iiitnr
+- Yes.  Please visit Admission section at our website for further details.
+
++ when does admission for phd programs begin
+- the admission for phd programs usually takes place at the begining of each semester (June for Autumn semester and December for Spring semester)
+
++ is ragging prohibited in iiitnr
+- ragging of any kind is strictly prohibited in the Institution. As per the directions of the Hon'ble Supreme Court of India, if any incident of ragging comes to the notice of the authorities, the concerned student will be given liberty to explain and if his explanation is not found satisfactory, he or she will be expelled from the Institution.
+
++ are there any scholarships available for students
+- waiver of tuition fees for the meritorious students is as per the following Scheme:
+
+100% tuition fees waiver for 100% of all the students for 1st  year
+100% tuition fees waiver for 50% of all the students for 2nd year
+100% tuition fees waiver for 33% of all the students for 3rd year
+100% tuition fees waiver for 25% of all the students for 4th year
+
++ are there any seats reserved for female candidates
+- for admission to its programmes under CG Quota , the institute follows the Chhattisgarh State Government policy on reservation for candidates from SC, ST, OBC, PH and Woman categories. 50% seats are reserved for those  who have passed 10th & 12th from the State of Chhattisgarh. However , for admission under All India Quota , Government of India policy on reservation applies.
+
+
++ what are the documents required to be submitted at the time of admission
+- please follow instructions available on the website  as part of the application process.
+
++ how many students will be admitted to btech program in 2018 and 19
+- total 120 students  Please see Admission Brochure for full details of seat distribution
+
++ what is the strength of faculty
+- the Institute currently has 17 regular faculty members, with more joining in July 2018. In addition , there are adjunct and visiting faculty members too.
+
++ is hostel facility available
+- yes. All programs offered by IIIT-NR are fully residential. It is mandatory for all students to stay on campus, even if the student is from the Naya Raipur region. Hostel facilities for 400 students (220 boys & 180 girls) are currently available. New hostels for both boys and girls are under constuction.
+
++ are day scholars allowed
+- yes. All programs offered by IIIT-NR are fully residential. It is mandatory for all students to stay on campus, even if the student is from the Naya Raipur region. Hostel facilities for 400 students (220 boys & 180 girls) are currently available. New hostels for both boys and girls are under constuction.
+
++ what is minimum cutoff for application to btech programs
+- there is no minimum cut-off of JEE Main Merit rankings.
+
++ will iiit naya raipur admission happen through josaa
+- yes wit effect from 2017. kindly visit jossa website at institute code 420. admission through JoSAA is for all india quota ( 35 percent seats).
+
++ when will online applications for admission begin
+- it begins on 10th June 2018. In addition to admission through JoSAA 2018, iiitnr has its own admission process for filling the other seats (50 percent seats are reserved for students who have passed 10th & 12th from the State of Chhattisgarh,15percent seats are reserved for people employed with NTPC or their wards). 
+
+
++ can i apply under both all inda quota and chhattishgarh state quota
+- yes, through josaa in case of all india quota and through our web portal if you are eligible under Chhattishgarh state quota.
+
++ what is the best chance of getting a seat at iiitnr while choice filling in josaa portal
+- select the choice of programs available at IIIT-NR (Institute code 420) as first and second choices.
+
++ what is admission under other categories
+- other categories mean admissions under a) 50 % seats under Chhattishgarh State Quota b) 15 % seats under NTPC quota.
+
++ how do i apply under state quota
+- after initial login at our admission portal, you will be asked to fill the requisite form.
+
++ is there any fee for application and if so how to pay
+- yes, candidates have to pay rupees 500 online through admission portal.
+
++ can i fill choices without application fee
+- no. you will be able fill in choices only after successful fee payment.
+
++ how should i order the choices of academic programs
+- you must fill your choices of academic program in the decreasing order of preferences. that is, your most preferred one should be on the top.
+
++ will a candidate be allowed to reshuffle the choice list at any stage of seat allotment
+- candidates are allowed to reshuffle or reorder their choices only during choice filling period before they “lock” their choices. beyond that there is no option of reordering.
+
++ what is locking of choices once locked can i unlock
+- lock is an option indicating the finalization of choices. choices will be automatically locked on the last date of application.
+
++ what is the period of choice filling
+- from 11 am on 10th June to 25th June 2018.
+
++ is there any cut off marks for registration and choice
+- yes, the eligibility for applying for the btech program under chhattisgarh quota at iiitnr is 50% aggregate marks in Physics and Mathematics (45% for SC or ST or OBC or PWD candidates) in their 12th standard examination. the eligibility for applying for the btech program under all india category and NTPC quota is as per JoSAA guidelines.
+
+

@@ -116,22 +116,17 @@
 - You're <get name>, right?
 
 
-+ *
-- I don't have a reply for that.
-- Try asking that a different way.
-
-
-
 + (hello|hi|hey)
 - Hey there!
 - Hello!
 - Hi!
 
-
 +(who are you|who you|who u|who are u|who r u|what about you|wht abt u)
 -Hey,I am <bot name>
 
 
++ office number
+- 8209956918
 
 + what is your (home|office|work|cell) phone number
 - You can call me at my <star> number, <bot phone>.
@@ -140,5 +135,9 @@
 - I'm fine, thanks for asking.
 
 
-+ how are you.
++ how are you
 - I'm great,how i can help you?
+
++ *
+- I don't have a reply for that.
+- Try asking that a different way.

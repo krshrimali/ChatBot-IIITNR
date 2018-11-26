@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RiveScript Playground</title>
+	<link rel="stylesheet" type="text/css" href="admin.css">
+	<script>
+			function download(){
+	    var text = document.getElementById("code").value;
+	    text = text.replace(/\n/g, "\r\n"); // To retain the Line breaks.
+	    var blob = new Blob([text], { type: "text/plain"});
+	    var anchor = document.createElement("a");
+	    anchor.download = "text-saved.rive";
+	    anchor.href = window.URL.createObjectURL(blob);
+	    anchor.target ="_blank";
+	    anchor.style.display = "none"; // just to be safe!
+	    document.body.appendChild(anchor);
+	    anchor.click();
+	    document.body.removeChild(anchor);
+ 	}
+ </script>
+</head>
+<body>
+
+
+<form id="playground-form">
+<div id="container">
+
+	<header>
+		<span>The RiveScript Playground</span>
+
+		<nav>
+			<ul>
+				<li><button type="button" id="run">Run</button></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="editor">
+		<div class="code">
+			<textarea id="code">! version = 2.0
+
++ hello bot
+- Hello human.
+
++ my name is *
+- &lt;set name=&lt;formal&gt;&gt;Nice to meet you, &lt;get name&gt;.
+
++ (what is my name|who am i)
+- You&#39;re &lt;get name&gt;, right?
+
++ *
+- I don&#39;t have a reply for that.
+- Try asking that a different way.</textarea>
+		<button type="button" onclick="download()">Save</button>
+		</div>
+		<div class="result">
+			<div id="dialogue">
+				<div class="history-pane">
+					<ul id="history">
+					</ul>
+				</div>
+			</div>
+			<div class="controls">
+				<input type="text" size="40" id="message" placeholder="Send a message to the bot" disabled="disabled" autocomplete="off">
+				<button type="submit">Send</button>
+			</div>
+			<div id="debug-pane">
+				<ul id="debug">
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="pull-right">
+			RiveScript.js v<span id="rs-version">?.?.?</span> &mdash;
+			Copyright &copy; 2016 <a href="https://www.rivescript.com/">RiveScript.com</a>
+		</div>
+
+		<strong>Options:</strong>
+		<label>
+			<input type="checkbox" id="opt-debug" value="true"> Debug Mode
+		</label>
+		<label>
+			<input type="checkbox" id="opt-utf8" value="true"> UTF-8 Mode
+		</label>
+	</footer>
+
+</div>
+</form>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"
+	integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+	crossorigin="anonymous"></script>
+<script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/rivescript-contrib-coffeescript@latest/dist/rivescript-contrib-coffeescript.min.js"></script>
+<script src="admin.js"></script>
+
+
+
+
+
+</body>
+</html>
